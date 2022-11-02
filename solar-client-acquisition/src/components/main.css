@@ -1,0 +1,133 @@
+.scale-containers{
+    display: flex;
+    justify-content: center;
+}
+
+.scale-container-left{
+    margin-top: 60px;
+    display: block;
+    padding-left: 60px;
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 615px;
+    height: 560px;
+    /* border: solid 3px rgb(94, 91, 91);
+    border-radius: 8px; */
+}
+
+
+#slide-value-one, #slide-value-two, #slide-value-three, #slide-value-four{
+    margin-left: 160px;
+    background-color: blue;
+    color: whitesmoke;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+.slider-parent{
+    margin-top: 33px;
+}
+
+.scale-container-right{
+    display: block;
+    padding: 30px;
+    width: 250px;
+    height: 300px;
+    border: solid 3px rgb(94, 91, 91);
+    border-radius: 8px;
+    margin-top: 60px;
+
+
+
+
+}
+
+
+#customRange2, #customRange3, #customRange4{
+    margin-left: 14px;
+}
+
+
+
+.slider-container{
+    /* display: inline-flex; */
+margin-right: 50px;
+margin-top: 45px;
+margin-bottom: 40px;
+}
+
+
+/* .slider-value-right{
+    margin-left: 350px;
+} */
+
+.slider-value-left{
+    position: relative;
+    width: 80px;
+    top: 18px;
+    right: 25px;
+    /* text-align: end; */
+    font-weight: bold;
+}
+
+#COS{
+    margin-right: 12px;
+    margin-top: 20px;
+    position: relative;
+    top: 18px;
+
+}
+
+.slider-value-right{
+    position: relative;
+    left: 515px;
+    width: 70px;
+    /* margin-top: 6px; */
+    margin-left: 9px;
+    font-weight: bold;
+
+}
+
+#custom-range-one{
+    position: relative;
+}
+.slide-value{
+    /* margin-left: 15px; */
+    position:absolute;
+    transform: translateX(-50%);
+    line-height: 50px;
+    z-index: -2;
+
+
+}
+
+.slide-value::after{
+    /* margin-left: 15px; */
+    content: "";
+    position:absolute;
+    transform: translateX(-50%);
+    line-height: 50px;
+    z-index: -1;
+
+
+}
+
+
+/* .span-text{
+    position:absolute;
+    transform: translateX(-50%);
+    line-height: 50px;
+    z-index: 2;
+} */
+
+#range-display{
+    margin-left: 250px;
+}
+
+.slide-labels{
+    margin-left: 22px;
+    text-align: center;
+}

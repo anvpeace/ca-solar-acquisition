@@ -1,0 +1,17 @@
+.header-name{
+    display: flex;
+    margin-left: 0%;   
+    justify-content: center;
+    height: 150px;
+    color: white;
+    font-weight: 500;
+}
+
+#company-name{
+    margin-top: 30px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
